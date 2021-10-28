@@ -30,7 +30,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin-top: 10px;
-  color: #fff;
+  /* color: #fff; */
 }
 
 /* Layout CSS */
@@ -42,8 +42,18 @@ body {
 .header {
   display: flex;
   justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 .coin_logo {
   height: 200px;
   width: 200px;
+}
+
+.Icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
 }
